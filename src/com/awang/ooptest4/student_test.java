@@ -6,11 +6,11 @@ public class student_test {
         // 属性：姓名 年龄 性别 身高
 
         // 创建对象
-        student s = new student();
-        System.out.println(s.getName());
-        System.out.println(s.getAge());
-        System.out.println(s.getGender());
-        System.out.println(s.getHeight());
+//        student s = new student();
+//        System.out.println(s.getName());
+//        System.out.println(s.getAge());
+//        System.out.println(s.getGender());
+//        System.out.println(s.getHeight());
 
         student ss = new student("zhangsan", 23, "男", 180);
         System.out.println(ss.getName());
