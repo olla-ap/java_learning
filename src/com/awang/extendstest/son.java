@@ -1,13 +1,12 @@
 package com.awang.extendstest;
 
-public class son {
-    public class Zi extends person{
+    public class son extends person{
         String name = "Zi";
         public void show(){
             String name = "ziShow";
             System.out.println(name); //"ziShow"
             System.out.println(this.name); //"Zi",this直接调用成员变量
-            System.out.println( super. name); //"Fu"，super直接调用父类的成员变量
+            System.out.println(super. name); //"Fu"，super直接调用父类的成员变量
 
         }
         // 先在局部位置找,本类成员位置找,父类成员位置找,逐级往上。
@@ -27,4 +26,4 @@ public class son {
 
 
     }
-}
+
